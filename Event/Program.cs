@@ -15,6 +15,7 @@ namespace Event
         {
             Console.WriteLine("Process " + (e.IsSuccessful? "Completed": "Failed"));
             Console.WriteLine("Completion Time" + e.CompletionDate.ToLongDateString());
+            Console.ReadLine();
         }
     }
 }
