@@ -17,6 +17,7 @@ namespace Event
                 data.CompletionDate = DateTime.Now;
                 OnProcessCompleted(data);
             }
+
             catch (Exception)
             {
                 data.IsSuccessful = false;
